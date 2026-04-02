@@ -2,6 +2,11 @@
 
 A frontend-only financial activity dashboard built for the assignment scenario. The project focuses on UI decisions, component structure, state handling, and clear presentation of summary, transactions, and lightweight insights without any backend dependency.
 
+## Live links
+
+- Repository: https://github.com/Mahathi-F-282829/zorvyn-finance-dashboard
+- Deployment: https://zorvyn-finance-dashboard-zeta.vercel.app
+
 ## Why this fits the assignment
 
 - Dashboard overview includes summary cards for total balance, income, and expenses.
