@@ -7,7 +7,7 @@ A frontend-only financial activity dashboard built for the assignment scenario. 
 - Repository: https://github.com/Mahathi-F-282829/zorvyn-finance-dashboard
 - Deployment: https://zorvyn-finance-dashboard-zeta.vercel.app
 
-## Why this fits the assignment
+## Features of this Dashboard
 
 - Dashboard overview includes summary cards for total balance, income, and expenses.
 - Includes one time-based visualization: balance trend line chart.
