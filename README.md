@@ -73,10 +73,6 @@ python3 -m http.server 4173
 
 Then open `http://localhost:4173`.
 
-### Option 3
-
-Use any static server extension or local server tool that serves the folder root.
-
 ## Feature notes
 
 ### Role-based UI
