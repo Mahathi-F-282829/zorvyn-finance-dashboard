@@ -73,37 +73,4 @@ python3 -m http.server 4173
 
 Then open `http://localhost:4173`.
 
-## Feature notes
 
-### Role-based UI
-
-- `Viewer`: read-only access to summary, insights, and transactions.
-- `Admin`: can add transactions and edit descriptions inline.
-
-### State management
-
-The app uses a simple store in [`src/store.js`](/Users/mahathigarapati/Desktop/Zorvyn/src/store.js) to keep:
-
-- selected role
-- selected theme
-- transaction data
-- active filters
-- loading state for the mock API flow
-
-State changes trigger a full re-render and are saved in `localStorage`.
-
-### Design decisions
-
-- Warm neutral base with bright accent colors to keep the dashboard readable but less generic than default fintech UI.
-- Strong typography pairing with `Space Grotesk` for headings and `Manrope` for body content.
-- Responsive stacked layouts for tablets and phones.
-- Simple motion on the categorical chart and buttons for a more polished feel.
-
-### Optional enhancements implemented
-
-- Dark mode
-- Data persistence with `localStorage`
-- Mock API integration through a delayed demo fetch
-- Animations and transitions
-- Export as CSV or JSON
-- Advanced filtering with date range plus transaction grouping
