@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zorvyn Finance Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css?v=5" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="page-noise"></div>
+      <main class="app-frame">
+        <header class="hero">
+          <div>
+            <p class="eyebrow">Financial activity workspace</p>
+            <h1>Zorvyn Personal Finance Dashboard</h1>
+            <p class="hero-copy">
+              A clear view of your balance, transactions, and spending in one
+              place.
+            </p>
+          </div>
+          <div class="hero-side">
+            <div id="theme-toggle"></div>
+            <div id="role-switcher"></div>
+          </div>
+        </header>
+
+        <section id="summary-section" class="section-stack"></section>
+        <section id="insights-section" class="section-stack"></section>
+        <section id="transactions-section" class="section-stack"></section>
+      </main>
+    </div>
+
+    <script type="module" src="./src/main.js?v=5"></script>
+  </body>
+</html>
