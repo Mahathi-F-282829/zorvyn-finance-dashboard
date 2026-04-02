@@ -32,8 +32,6 @@ A frontend-only financial activity dashboard built for the assignment scenario. 
 - No external chart library
 - Mock transaction data with browser persistence
 
-This was intentionally built without a framework so it can run immediately in any modern browser while still showing clear component separation and state management.
-
 ## Project structure
 
 ```text
